@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Misbah — Engineering Student / Designer." />
+  <title>Misbah — Still Learning</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="site-shell">
+    <header class="topbar">
+      <div class="nameplate">MISBAH</div>
+      <div class="tagline">STILL LEARNING</div>
+      <div class="pin" aria-hidden="true"></div>
+    </header>
+
+    <main class="content">
+      <section class="intro panel">
+        <div class="section-label">WELCOME!</div>
+        <p>
+          I'm Misbah, a first-year Production Engineering student at
+          <strong>NIT Calicut</strong>, interested in design, CAD, 3D modelling
+          and creative engineering.
+        </p>
+        <p>
+          I like experimenting with things I don't know yet, attending
+          workshops, and making things that combine creativity with engineering.
+        </p>
+
+        <div class="identity">
+          <span>ENGINEERING STUDENT</span>
+          <span>/</span>
+          <span>DESIGNER</span>
+        </div>
+      </section>
+
+      <section class="work-section">
+        <div class="section-heading">
+          <span>SELECTED WORK</span>
+          <small>click a piece to open</small>
+        </div>
+
+        <!--
+          PROJECT SYSTEM:
+          To add a project, copy one .project-card block and change:
+          data-title, data-description, data-tools, data-link, data-image.
+
+          Example:
+          <article class="project-card"
+            data-title="My Project"
+            data-description="A short description."
+            data-tools="Blender, CAD"
+            data-link="https://example.com"
+            data-image="assets/project.jpg">
+            <div class="project-thumb">
+              <img src="assets/project.jpg" alt="My Project" />
+            </div>
+            <div class="project-name">MY PROJECT</div>
+          </article>
+
+          If you don't have an image, remove the <img> and the placeholder
+          will remain visible.
+        -->
+
+        <div class="projects-grid" id="projectsGrid">
+
+          <!-- PROJECT 0 -->
+          <article class="project-card" data-title="PROJECT 0"
+            data-description="First ever project of mine designing a desk for my room."
+            data-tools="Blender / CAD / Wood" data-link="https://github.com/misbahmechery/Dream-Desk"
+            data-image="media\desk.JPG">
+            <div class="project-thumb placeholder">
+              <span>PROJECT<br>0</span>
+              <i>☯</i>
+            </div>
+            <div class="project-name">PROJECT 0</div>
+          </article>
+
+          <!-- Add more project cards below this line -->
+
+          <article class="project-card" data-title="PROJECT 1" data-description="project." data-tools="Your tools"
+            data-link="#" data-image="">
+            <div class="project-thumb placeholder">
+              <span>PROJECT<br>1</span>
+              <i>☯</i>
+            </div>
+            <div class="project-name">PROJECT 1</div>
+          </article>
+
+
+        </div>
+      </section>
+
+      <aside class="side-stack">
+        <section class="skills panel">
+          <div class="section-label">THINGS I USE</div>
+          <div class="skill-list" id="skillList">
+            <span>BLENDER</span>
+
+
+            <span>PHOTOSHOP</span>
+            <span>3D MODELLING</span>
+            <span>POSTER DESIGN</span>
+          </div>
+        </section>
+
+        <section class="contact panel">
+          <div class="section-label">FIND ME</div>
+          <div class="links">
+            <a href="#" data-link="github">GITHUB ↗</a>
+            <a href="#" data-link="instagram">INSTAGRAM ↗</a>
+            <a href="#" data-link="linkedin">LINKEDIN ↗</a>
+            <a href="#" data-link="email">EMAIL ↗</a>
+          </div>
+        </section>
+      </aside>
+    </main>
+
+    <footer>
+      <span>© 2026 MISBAH</span>
+      <span>MADE WITH CURIOSITY</span>
+      <span>LAST UPDATED: 2026</span>
+    </footer>
+  </div>
+
+  <div class="modal" id="projectModal" aria-hidden="true">
+    <div class="modal-backdrop" data-close></div>
+    <div class="modal-window">
+      <button class="modal-close" data-close aria-label="Close">×</button>
+      <div class="modal-image" id="modalImage"></div>
+      <div class="modal-copy">
+        <div class="section-label" id="modalTitle">PROJECT</div>
+        <p id="modalDescription"></p>
+        <div class="modal-tools" id="modalTools"></div>
+        <a class="modal-link" id="modalLink" href="#" target="_blank" rel="noopener">VIEW PROJECT ↗</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
