@@ -44,6 +44,16 @@ if (nameplateFlip) {
   });
 }
 
+const portraitSpecimenContainer = document.getElementById("portraitSpecimen");
+if (portraitSpecimenContainer && nameplateFlip) {
+  portraitSpecimenContainer.addEventListener("click", () => {
+    nameplateFlip.classList.remove("shake-animation");
+    void nameplateFlip.offsetWidth; // trigger reflow
+    nameplateFlip.classList.add("shake-animation");
+  });
+  portraitSpecimenContainer.style.cursor = "pointer";
+}
+
 /* ==========================================================================
    PROJECT THUMBNAIL ENHANCER & REDIRECTION
    ========================================================================== */
