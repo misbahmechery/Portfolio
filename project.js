@@ -13,7 +13,8 @@ const projectsData = {
     timeline: "2026",
     role: "Lead Designer",
     tools: ["Blender ", "Woodworking Tools "],
-    heroImage: "media/desk.jpeg",
+    heroImage: "media/Project0/desk.jpeg",
+    heroAlt: "Dream Desk Hero Image",
     externalLink: "https://github.com/misbahmechery/Dream-Desk",
     externalLinkLabel: "GITHUB REPOSITORY ↗",
     overview: `

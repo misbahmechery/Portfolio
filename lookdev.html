@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="LookDev — Blender Works Before College." />
+  <title>LookDev — Misbah Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .lookdev-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+
+    .lookdev-item {
+      background: rgba(20, 20, 20, 0.5);
+      border: 1px solid var(--border-color);
+      border-radius: 4px;
+      padding: 1rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .lookdev-media {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 2px;
+      background: #000;
+    }
+
+    .lookdev-title {
+      font-family: 'Space Mono', monospace;
+      font-size: 1.1rem;
+      font-weight: bold;
+      color: var(--accent-color);
+      text-transform: uppercase;
+    }
+
+    .lookdev-desc {
+      font-size: 0.9rem;
+      color: #aaa;
+      line-height: 1.4;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="site-shell project-shell">
+    <header class="topbar project-topbar">
+      <a href="index.html" class="back-link">
+        <span class="back-arrow">←</span>
+        <span>ARCHIVE</span>
+      </a>
+      <div class="tagline project-tagline">LOOKDEV</div>
+      <div class="pin" aria-hidden="true"></div>
+    </header>
+
+    <main class="project-content">
+      <section class="panel project-header-panel">
+        <div class="proj-category-badge">BLENDER / LOOKDEV</div>
+        <h1 class="project-main-title">LOOKDEV ARCHIVE</h1>
+        <div class="project-subtitle">A collection of my Blender works and experiments done before college.</div>
+      </section>
+
+      <section class="panel">
+        <div class="section-label">WORKS COLLECTION</div>
+        
+        <div class="lookdev-grid">
+          
+          <!-- Item 1 -->
+          <div class="lookdev-item">
+            <video class="lookdev-media" src="media/LookDev/ArcaneInspired.mp4" autoplay loop muted playsinline></video>
+            <div class="lookdev-title">Arcane Inspired</div>
+            <div class="lookdev-desc">An experimental look development inspired by the art style of the Arcane series.</div>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="lookdev-item">
+            <img class="lookdev-media" src="media/LookDev/Chocolate%231.png" alt="Chocolate #1" />
+            <div class="lookdev-title">Chocolate #1</div>
+            <div class="lookdev-desc">Realistic chocolate material rendering and lighting setup.</div>
+          </div>
+
+          <!-- Item 3 -->
+          <div class="lookdev-item">
+            <video class="lookdev-media" src="media/LookDev/Geo%20nodes.mp4" autoplay loop muted playsinline></video>
+            <div class="lookdev-title">Geometry Nodes</div>
+            <div class="lookdev-desc">Procedural generation and animation using Blender's Geometry Nodes.</div>
+          </div>
+
+          <!-- Item 4 -->
+          <div class="lookdev-item">
+            <img class="lookdev-media" src="media/LookDev/cryon.png" alt="Crayon" />
+            <div class="lookdev-title">Crayon</div>
+            <div class="lookdev-desc">Material and texture exploration for a realistic crayon look.</div>
+          </div>
+
+          <!-- Item 5 -->
+          <div class="lookdev-item">
+            <video class="lookdev-media" src="media/LookDev/gummy%20bear.mp4" autoplay loop muted playsinline></video>
+            <div class="lookdev-title">Gummy Bear</div>
+            <div class="lookdev-desc">Soft body physics and subsurface scattering applied to a gummy bear model.</div>
+          </div>
+
+          <!-- Item 6 -->
+          <div class="lookdev-item">
+            <img class="lookdev-media" src="media/LookDev/interior.png" alt="Interior" />
+            <div class="lookdev-title">Interior Room</div>
+            <div class="lookdev-desc">Architectural interior lighting and composition.</div>
+          </div>
+
+          <!-- Item 7 -->
+          <div class="lookdev-item">
+            <video class="lookdev-media" src="media/LookDev/puss%20in%20boots%20inspired.mp4" autoplay loop muted playsinline></video>
+            <div class="lookdev-title">Puss in Boots Inspired</div>
+            <div class="lookdev-desc">A stylized render paying homage to the visual style of Puss in Boots: The Last Wish.</div>
+          </div>
+
+          <!-- Item 8 -->
+          <div class="lookdev-item">
+            <img class="lookdev-media" src="media/LookDev/schoolAnimProj.png" alt="School Animation Project" />
+            <div class="lookdev-title">School Anim Proj</div>
+            <div class="lookdev-desc">A still from an early school animation project exploring character framing.</div>
+          </div>
+
+          <!-- Item 9 -->
+          <div class="lookdev-item">
+            <video class="lookdev-media" src="media/LookDev/tetrisInspired.mp4" autoplay loop muted playsinline></video>
+            <div class="lookdev-title">Tetris Inspired</div>
+            <div class="lookdev-desc">A dynamic, physics-based rendering with retro Tetris vibes.</div>
+          </div>
+
+          <!-- Item 10 -->
+          <div class="lookdev-item">
+            <video class="lookdev-media" src="media/LookDev/window%20vfx.mp4" autoplay loop muted playsinline></video>
+            <div class="lookdev-title">Window VFX</div>
+            <div class="lookdev-desc">Visual effects and compositing experiment involving a window scene.</div>
+          </div>
+
+        </div>
+      </section>
+
+    </main>
+
+    <footer>
+      <span>© 2026 MISBAH</span>
+      <span>PRODUCTION ENGINEERING // NIT CALICUT</span>
+      <span>PORTFOLIO ARCHIVE</span>
+    </footer>
+  </div>
+</body>
+
+</html>
