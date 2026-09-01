@@ -18,8 +18,7 @@ const projectsData = {
     externalLinkLabel: "GITHUB REPOSITORY ↗",
     overview: `
       <p>
-        The <strong>Dream Desk</strong> project was born out of a desire to create a bespoke, functional workspace tailored specifically to ergonomic needs and room geometry. As my first end-to-end design and fabrication endeavor, the goal was to take an initial conceptual sketch, model and simulate it in 3D CAD software, and translate the virtual geometry into a finished physical desk.
-      </p>
+        The Dream Desk is a custom-built L-shaped workstation designed for studying, coding, 3D modeling, and creative work. I designed it to be spacious, practical, and organized, with integrated storage and a clean modern look. The design will also be open-sourced so others can build and customize it.</p>
       <p>
         The design focuses on clean lines, modular cable management, robust load distribution, and a warm natural wood finish that blends minimalist aesthetic with structural durability.
       </p>
@@ -34,12 +33,12 @@ const projectsData = {
       {
         step: "01",
         title: "RESEARCH & CONCEPTUAL SKETCHING",
-        text: "Analyzed spatial constraints of the room, required surface area for dual displays and peripherals, and sketched multiple form factors exploring angled leg braces versus box frames."
+        text: "My Dream Desk is a custom-built L-shaped workstation designed for studying, coding, 3D modeling, and creative work. I designed it to be spacious, practical, and organized, with integrated storage and a clean modern look. The design will also be open-sourced so others can build and customize it."
       },
       {
         step: "02",
         title: "3D MODELLING & TOLERANCE TESTING IN CAD & BLENDER",
-        text: "Transferred conceptual sketches into CAD to model every joint, screw placement, and bevel. Used Blender for realistic texture mapping and lighting simulation to validate the wood grain appearance."
+        text: "Using Blender and CAD tools, I created a precise 1:1 scale 3D model of the desk. This included modeling every joint, screw placement, and bevel. I used Blender to create photorealistic renders with realistic wood grain textures and lighting, ensuring the final physical desk would match the digital design."
       },
       {
         step: "03",
